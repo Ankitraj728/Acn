@@ -1,0 +1,42 @@
+============================================================
+Support Vector Machine (RBF) | test size=0.6 | Kernel PCA cosine, nComp=10
+============================================================
+Training samples: 400   Testing samples: 600
+
+CONFUSION MATRIX:
+[[430   0   1   0   0   0   0   0   0   0   0]
+ [  8   2   0   0   0   0   0   0   0   0   0]
+ [ 15   0  85   0   0   0   0   0   0   0   0]
+ [  8   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   2   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0]
+ [  5   0   1   0   0   0   0   0   0   0   0]
+ [  9   0   0   0   0   0   0   0   0   0   0]
+ [  7   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0]
+ [  6   0   0   0   0   0   0   0   0   0   0]]
+
+Accuracy  : 0.8650
+Precision : 0.7997
+Recall    : 0.8650
+F1        : 0.8196
+
+CLASSIFICATION REPORT:
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.84      1.00      0.91       431
+             DoS GoldenEye       1.00      0.20      0.33        10
+                  DoS Hulk       0.98      0.85      0.91       100
+          DoS Slowhttptest       0.00      0.00      0.00         8
+             DoS slowloris       1.00      0.25      0.40         8
+               FTP-Patator       0.00      0.00      0.00         9
+                Heartbleed       0.00      0.00      0.00         6
+               SSH-Patator       0.00      0.00      0.00         9
+  Web Attack - Brute Force       0.00      0.00      0.00         7
+Web Attack - Sql Injection       0.00      0.00      0.00         6
+          Web Attack - XSS       0.00      0.00      0.00         6
+
+                  accuracy                           0.86       600
+                 macro avg       0.35      0.21      0.23       600
+              weighted avg       0.80      0.86      0.82       600
+

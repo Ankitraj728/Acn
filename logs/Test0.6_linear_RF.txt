@@ -1,0 +1,42 @@
+============================================================
+Random Forest (100 trees) | test size=0.6 | Kernel PCA linear, nComp=10
+============================================================
+Training samples: 400   Testing samples: 600
+
+CONFUSION MATRIX:
+[[424   0   3   0   1   0   0   0   1   0   2]
+ [  7   3   0   0   0   0   0   0   0   0   0]
+ [  5   1  94   0   0   0   0   0   0   0   0]
+ [  2   0   0   6   0   0   0   0   0   0   0]
+ [  4   0   0   1   3   0   0   0   0   0   0]
+ [  1   0   0   0   0   8   0   0   0   0   0]
+ [  0   0   1   0   0   0   5   0   0   0   0]
+ [  0   0   0   0   0   0   0   8   0   1   0]
+ [  2   0   0   0   0   0   0   0   1   1   3]
+ [  4   0   0   0   0   0   0   0   0   2   0]
+ [  0   0   0   0   0   0   0   0   2   0   4]]
+
+Accuracy  : 0.9300
+Precision : 0.9245
+Recall    : 0.9300
+F1        : 0.9237
+
+CLASSIFICATION REPORT:
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.94      0.98      0.96       431
+             DoS GoldenEye       0.75      0.30      0.43        10
+                  DoS Hulk       0.96      0.94      0.95       100
+          DoS Slowhttptest       0.86      0.75      0.80         8
+             DoS slowloris       0.75      0.38      0.50         8
+               FTP-Patator       1.00      0.89      0.94         9
+                Heartbleed       1.00      0.83      0.91         6
+               SSH-Patator       1.00      0.89      0.94         9
+  Web Attack - Brute Force       0.25      0.14      0.18         7
+Web Attack - Sql Injection       0.50      0.33      0.40         6
+          Web Attack - XSS       0.44      0.67      0.53         6
+
+                  accuracy                           0.93       600
+                 macro avg       0.77      0.65      0.69       600
+              weighted avg       0.92      0.93      0.92       600
+

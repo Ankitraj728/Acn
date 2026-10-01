@@ -1,0 +1,42 @@
+============================================================
+Decision Tree (Entropy) | test size=0.4 | Kernel PCA rbf, nComp=10
+============================================================
+Training samples: 600   Testing samples: 400
+
+CONFUSION MATRIX:
+[[266   5   1   2   6   0   0   0   1   4   2]
+ [  5   2   0   0   0   0   0   0   0   0   0]
+ [  6   1  60   0   0   0   0   0   0   0   0]
+ [  1   0   0   3   1   0   0   0   0   0   0]
+ [  4   1   0   0   1   0   0   0   0   0   0]
+ [  0   0   0   0   0   6   0   0   0   0   0]
+ [  1   0   0   0   0   0   3   0   0   0   0]
+ [  0   0   0   0   0   0   0   2   3   1   0]
+ [  1   0   0   0   0   0   0   0   0   1   2]
+ [  1   0   0   0   0   0   0   0   0   3   0]
+ [  0   0   0   0   0   0   0   0   3   0   1]]
+
+Accuracy  : 0.8675
+Precision : 0.8930
+Recall    : 0.8675
+F1        : 0.8763
+
+CLASSIFICATION REPORT:
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.93      0.93      0.93       287
+             DoS GoldenEye       0.22      0.29      0.25         7
+                  DoS Hulk       0.98      0.90      0.94        67
+          DoS Slowhttptest       0.60      0.60      0.60         5
+             DoS slowloris       0.12      0.17      0.14         6
+               FTP-Patator       1.00      1.00      1.00         6
+                Heartbleed       1.00      0.75      0.86         4
+               SSH-Patator       1.00      0.33      0.50         6
+  Web Attack - Brute Force       0.00      0.00      0.00         4
+Web Attack - Sql Injection       0.33      0.75      0.46         4
+          Web Attack - XSS       0.20      0.25      0.22         4
+
+                  accuracy                           0.87       400
+                 macro avg       0.58      0.54      0.54       400
+              weighted avg       0.89      0.87      0.88       400
+
