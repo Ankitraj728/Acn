@@ -1,4 +1,4 @@
-# ACN PROJECT V3 - Kernel PCA + Classifiers for Network Intrusion Detection (CIC-IDS2017)
+# ACN PROJECT- Kernel PCA + Classifiers for Network Intrusion Detection (CIC-IDS2017)
 
 A controlled comparison of five classifiers on CIC-IDS2017 flow data after **Kernel PCA** dimensionality reduction.
 Grid: **3 test sizes x 5 Kernel-PCA kernels x 5 algorithms = 75 experiments** (75 scripts + 75 JPGs, 15 + 15 per algorithm folder), one script and one result image per experiment.
