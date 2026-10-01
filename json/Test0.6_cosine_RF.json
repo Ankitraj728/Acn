@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "cosine", "n_components": 10, "algorithm": "RF", "model": "Random Forest (100 trees)", "n_train": 400, "n_test": 600, "accuracy": 0.9133333333333333, "precision": 0.9101179847805408, "recall": 0.9133333333333333, "f1": 0.9069458166087719}

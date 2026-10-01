@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "rbf", "n_components": 10, "algorithm": "DT", "model": "Decision Tree (Entropy)", "n_train": 400, "n_test": 600, "accuracy": 0.8833333333333333, "precision": 0.8853380402666114, "recall": 0.8833333333333333, "f1": 0.882937844281172}

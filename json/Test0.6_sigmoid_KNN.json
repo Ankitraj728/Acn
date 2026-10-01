@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "sigmoid", "n_components": 10, "algorithm": "KNN", "model": "k-Nearest Neighbors (k=5)", "n_train": 400, "n_test": 600, "accuracy": 0.89, "precision": 0.8844662303541884, "recall": 0.89, "f1": 0.883632082074314}

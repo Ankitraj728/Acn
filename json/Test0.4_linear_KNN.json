@@ -1,0 +1,1 @@
+{"test_size": 0.4, "kernel": "linear", "n_components": 10, "algorithm": "KNN", "model": "k-Nearest Neighbors (k=5)", "n_train": 600, "n_test": 400, "accuracy": 0.885, "precision": 0.884041750503018, "recall": 0.885, "f1": 0.8793112656462041}

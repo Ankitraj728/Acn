@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "poly", "n_components": 10, "algorithm": "DT", "model": "Decision Tree (Entropy)", "n_train": 400, "n_test": 600, "accuracy": 0.9, "precision": 0.9055153984045737, "recall": 0.9, "f1": 0.9010930427567942}

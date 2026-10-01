@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "sigmoid", "n_components": 10, "algorithm": "DT", "model": "Decision Tree (Entropy)", "n_train": 400, "n_test": 600, "accuracy": 0.87, "precision": 0.8786152189313953, "recall": 0.87, "f1": 0.8706160050308722}

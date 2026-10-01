@@ -1,0 +1,1 @@
+{"test_size": 0.2, "kernel": "rbf", "n_components": 10, "algorithm": "RF", "model": "Random Forest (100 trees)", "n_train": 800, "n_test": 200, "accuracy": 0.89, "precision": 0.8888436781609195, "recall": 0.89, "f1": 0.8857652512617951}

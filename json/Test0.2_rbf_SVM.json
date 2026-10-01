@@ -1,0 +1,1 @@
+{"test_size": 0.2, "kernel": "rbf", "n_components": 10, "algorithm": "SVM", "model": "Support Vector Machine (RBF)", "n_train": 800, "n_test": 200, "accuracy": 0.855, "precision": 0.764306358381503, "recall": 0.855, "f1": 0.8026324921135647}

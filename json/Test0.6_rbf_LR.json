@@ -1,0 +1,1 @@
+{"test_size": 0.6, "kernel": "rbf", "n_components": 10, "algorithm": "LR", "model": "Logistic Regression", "n_train": 400, "n_test": 600, "accuracy": 0.835, "precision": 0.747140581646285, "recall": 0.835, "f1": 0.7815395332636712}

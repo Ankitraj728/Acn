@@ -1,0 +1,1 @@
+{"test_size": 0.4, "kernel": "sigmoid", "n_components": 10, "algorithm": "LR", "model": "Logistic Regression", "n_train": 600, "n_test": 400, "accuracy": 0.82, "precision": 0.7254121173196317, "recall": 0.82, "f1": 0.7656412465891139}
